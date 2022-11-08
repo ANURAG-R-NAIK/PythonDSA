@@ -2,13 +2,15 @@
 
 #Notice that the solution set must not contain duplicate triplets.
 nums=list(input('enter'))
-i=0
-j=0
-k=0
 n=len(nums)
-i!=j!=k
-for i in range (n):
-    for j in range(n):
-        for k in range (n):
-            if (nums[i]+nums[j]+nums[k]==0)  :
-                print (list(nums[i],nums[j],nums[k]))      
+
+k=[]
+
+for i in range (n-2):
+            for j in range(i+1,n-1):
+                for k in range (j+1,n):
+                    if (nums[i] + nums[j] + nums[k] == 0)  :
+
+                        l=[ nums[i],nums[j],nums[k] ]
+                        j=k+l
+                  
