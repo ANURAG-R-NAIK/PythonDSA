@@ -8,4 +8,4 @@ class Solution:
             if nums[i]==nums[i+1]==nums[i+2] :
                 i=i+3
             else:
-                return nums[i]    
+                return nums[i]  
