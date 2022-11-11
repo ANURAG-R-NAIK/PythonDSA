@@ -10,8 +10,8 @@ while i<val+1:
 # 123
 # 12
 # 1###
-# n = int(input("enter"))
-# i=1
+n = int(input("enter"))
+i=1
 
 while i <= n:
     j=1
@@ -37,3 +37,19 @@ for i in range(dig):
         x+=1
     list.append(s)    
 print(list)
+
+# *****
+# *****
+# *****
+# *****
+# *****
+
+val=int(input('enter the number of rows'/n))
+
+i=0
+while i<val:
+    print(val*"*")
+    i+=1
+    
+    
+
