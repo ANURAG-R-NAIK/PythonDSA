@@ -34,17 +34,17 @@
 
 # THE NUMBER OF CATS AND HATS SHOULD BE EQUAL IN A STRIG
 
-x = input("enter ")
+# x = input("enter ")
 
-i=0
-j=0
-for 'cat' in str:
-      i+=1
-for 'hat' in str:
-      j+=1
-if i == j:
-    print(True)
-else:
-    print(False)
+# i=0
+# j=0
+# for ''cat'' in str:
+#       i+=1
+# for 'hat' in str:
+#       j+=1
+# if i == j:
+#     print(True)
+# else:
+#     print(False)
 
         
