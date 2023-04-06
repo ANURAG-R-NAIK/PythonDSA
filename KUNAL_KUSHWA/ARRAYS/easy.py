@@ -60,4 +60,75 @@
 
 # Q7
 
- 
+# class Solution:
+#     def numIdenticalPairs(self, nums: List[int]) -> int:
+#         result = 0
+        
+#         for i in range(0,len(nums)):
+#             for j in range(i+1,len(nums)):
+#                 if(nums[i] == nums[j]) and (i<j):
+#                     result +=1
+#         return result
+
+# Q8
+
+# class Solution:
+#     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+#         l=len(nums)
+#         ans=[]
+#         count=0
+#         for i in nums:
+#             for j in range(l):
+#                if (nums[j]-i)<0:
+#                    count+=1
+#             ans.append(count)
+#             count=0
+#         return ans
+    
+# Q9
+
+# class Solution:
+#     def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]: 
+#         t = []
+#         for i in range(len(nums)):
+#             t.insert(index[i], nums[i])
+#         return t
+
+# Q10
+##ERROR
+# sentence = input('enter')
+# if len(sentence) > 1:
+#             for i in sentence:
+#                 k = (sentence.count(i) == 1 )
+#             return k
+#         else:
+#             return "false"
+##ERROR       
+# # k = list(sentence)
+# # l = set(k)
+# # m1 = len(l)
+# # m2 = len(k)
+# # if (m1-m2) != 0:
+# #     print('false')
+# # else:
+#     print('true')
+
+#######CORRECT ONE###
+# class Solution:
+#     def checkIfPangram(self, sentence: str) -> bool:
+#         return (len(set(sentence)) == 26)
+
+# Q11 
+### DIDNOT UNDERSTAND QUESTION
+
+
+# Q12
+gain = [int(i) for i in input().split()]
+
+k = []
+c = 0
+for i in gain:
+    c += i
+    k.append(c)
+
+print(k)
