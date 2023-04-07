@@ -37,13 +37,36 @@
 
 #euclids algorithm  
 
-def gcd(a,b):
-    if a>b:
-        (a,b) = (b,a)
+# def gcd(a,b):
+#     if a>b:
+#         (a,b) = (b,a)
         
-    if a%b == 0:
-        return b
-    else:
-        return gcd(a,a%b)
+#     if a%b == 0:
+#         return b
+#     else:
+#         return gcd(a,a%b)
 
-print(gcd(7,63))     
+# print(gcd(7,63))     
+
+## FACTORIAL OF A NUMBER
+
+
+# def fact(x):
+#     if x <= 0:
+#         return(1)
+#     else:
+#         k = x * fact(x-1)
+#         return(k) 
+        
+# print(fact(10))
+
+
+## FACTORS OF A NUMBER N
+
+# n = int(input("enter"))
+# k = []
+# for i in range(1,n):
+#     if (n%i) == 0:
+#         k.append(i)
+# print(k)       
+    

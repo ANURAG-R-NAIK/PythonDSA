@@ -119,16 +119,45 @@
 #         return (len(set(sentence)) == 26)
 
 # Q11 
-### DIDNOT UNDERSTAND QUESTION
+# class Solution:
+#     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
+#         count = 0
+#         if ruleKey == 'type':
+#             for i in range(len(items)):
+#                 if items[i][0] == ruleValue :
+#                     count += 1
+#         elif ruleKey == 'color':
+#             for i in range(len(items)):
+#                 if items[i][1] == ruleValue :
+#                     count += 1
+#         elif ruleKey == 'name':
+#             for i in range(len(items)):
+#                 if items[i][2] == ruleValue :
+#                     count += 1
+#         return count
 
 
 # Q12
-gain = [int(i) for i in input().split()]
+# class Solution:
+#     def largestAltitude(self, gain: List[int]) -> int:
+#         k = []
+#         c = 0
+#         for i in gain:
+#             c+=i
+#             k.append(c)
 
-k = []
-c = 0
-for i in gain:
-    c += i
-    k.append(c)
+#         if max(k)>=0:
+#             return max(k)
+#         else: return 0
 
-print(k)
+# Q13
+#ERROR ANS DIDNT GET
+# for i in image:
+#             for j in range(len(i)):
+#                 if i[j] == 0:
+#                     i[j] = 1
+#                 else:
+#                     i[j] = 0
+#         return image
+
+# Q14
